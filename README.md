@@ -10,6 +10,9 @@
 * Exemplos de Uso [`src/main/resources/collection/Projeto_Integrador.postman_collection.json`](src/main/resources/collection/Projeto_Integrador.postman_collection.json)
 * Requisito 6 [`src/main/resources/collection/Isaias-Finger.postman_collection.json`](src/main/resources/collection/Isaias-Finger.postman_collection.json)
 
+## 📌 Requisito 6 - Isaias Finger
+* User Story [`docs/UserStory-Requisito-06-Isaias-Finger.pdf`](docs/UserStory-Requisito-06-Isaias-Finger.pdf)
+
 ## 📝 Proposta
 Criar uma API REST que faz o gerenciamento de estoque e venda de produtos frescos.
 
