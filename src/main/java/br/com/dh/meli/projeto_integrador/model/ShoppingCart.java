@@ -22,6 +22,6 @@ public class ShoppingCart {
     @JsonIgnoreProperties("shoppingCart")
     private List<Item> items;
     private Status status;
-    @OneToOne
+    @OneToOne(fetch = FetchType.LAZY)
     private Customer customer;
 }
