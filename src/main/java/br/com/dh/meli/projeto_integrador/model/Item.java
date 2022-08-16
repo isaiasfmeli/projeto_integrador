@@ -18,10 +18,10 @@ public class Item {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @OneToOne(cascade = CascadeType.ALL,fetch = FetchType.LAZY)
-    @JoinColumn(name = "advertisement_id")
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinColumn(name = "advertisement_id", nullable = true)
     private Advertisement advertisement;
-    @OneToOne(cascade = CascadeType.ALL,fetch = FetchType.LAZY)
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "batchstock_id", nullable = true)
     private BatchStock batchStock;
     private Integer quantity;
@@ -29,7 +29,7 @@ public class Item {
     @JoinColumn(name="shopping_cart_id", nullable = false)
     @JsonIgnoreProperties("items")
     private ShoppingCart shoppingCart;
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "order_id", nullable = true)
     @JsonIgnoreProperties("order")
     private Order order;
