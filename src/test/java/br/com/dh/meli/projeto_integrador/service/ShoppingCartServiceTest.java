@@ -45,6 +45,9 @@ public class ShoppingCartServiceTest {
     @Mock
     IBatchStockService batchStockService;
 
+    @Mock
+    IOrderService orderService;
+
     /**
      * Method that helps to create a setup before each test
      * @author Evelyn Oliveira
@@ -64,6 +67,8 @@ public class ShoppingCartServiceTest {
                 .thenReturn(ShoppingCartUtil.customerGenerator());
         when(customerService.getCustomerById(ArgumentMatchers.anyLong()))
                 .thenReturn(ShoppingCartUtil.customerGenerator());
+        when(orderService.createOrderByClosedCart(ArgumentMatchers.any(ShoppingCart.class)))
+                .thenReturn(Optional.empty());
     }
 
     /**

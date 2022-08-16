@@ -15,4 +15,6 @@ public class ItemDTO {
     private Long advertisementId;
     private Integer batchNumber;
     private Integer quantity;
+    private Double unitPrice;
+    private Double price;
 }

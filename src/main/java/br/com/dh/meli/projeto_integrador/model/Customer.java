@@ -1,27 +1,16 @@
 package br.com.dh.meli.projeto_integrador.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
-import java.util.List;
+import javax.persistence.*;
 
 @Data
-@Builder
 @Entity
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Customer extends Person{
+public class Customer extends Person {
     @OneToOne
     @JoinColumn(name = "shoppingcart_id", nullable = true)
     private ShoppingCart shoppingCart;
-    @OneToMany(mappedBy = "customer")
-    @JsonIgnoreProperties("customer")
-    private List<Order> historicShopping;
 }

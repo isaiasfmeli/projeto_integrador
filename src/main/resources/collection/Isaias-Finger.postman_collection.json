@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "c958687b-ec7e-40c5-8688-d60d05799b20",
+		"name": "Isaias-Finger",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21824266"
+	},
+	"item": [
+		{
+			"name": "Requisito 6",
+			"item": [
+				{
+					"name": "[200] Listar o histórico de compras",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_Url}}/api/v1/fresh-products/customer/1/orders",
+							"host": [
+								"{{base_Url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"fresh-products",
+								"customer",
+								"1",
+								"orders"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "[200] Listar o histórico de compras",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_Url}}/api/v1/fresh-products/customer/1/orders",
+									"host": [
+										"{{base_Url}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"fresh-products",
+										"customer",
+										"1",
+										"orders"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 16 Aug 2022 23:12:49 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"orderDate\": \"2022-08-16T20:12:45.945958\",\n        \"status\": \"FECHADO\",\n        \"customerId\": 1,\n        \"totalPrice\": 200,\n        \"items\": [\n            {\n                \"advertisementId\": 1,\n                \"batchNumber\": 3,\n                \"quantity\": 1,\n                \"unitPrice\": 200,\n                \"price\": 200\n            }\n        ]\n    }\n]"
+						}
+					]
+				}
+			]
+		}
+	]
+}

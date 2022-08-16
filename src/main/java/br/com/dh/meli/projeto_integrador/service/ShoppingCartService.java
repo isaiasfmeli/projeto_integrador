@@ -31,7 +31,6 @@ public class ShoppingCartService implements IShoppingCartService {
     @Autowired
     private ICustomerService customerService;
 
-
     @Autowired
     private IAdvertisementService advertisementService;
 
@@ -40,6 +39,9 @@ public class ShoppingCartService implements IShoppingCartService {
 
     @Autowired
     private IItemService itemService;
+
+    @Autowired
+    private IOrderService orderService;
 
     @Override
     public ShoppingCart getShoppingCartById(Long id) {
@@ -52,18 +54,23 @@ public class ShoppingCartService implements IShoppingCartService {
 
     @Override
     public ShoppingCart createShoppingCart(ShoppingCartDTO dto) {
-        ShoppingCart shoppingCart = convertToModel(dto);
+        ShoppingCart cart = convertToModel(dto);
         List<Item> items = new ArrayList<>();
         dto.getItems().stream().forEach(itemDTO -> {
-            Item item = itemService.createItem(itemDTO, shoppingCart);
-            if(shoppingCart.getStatus().equals(Status.FECHADO)){
-                reserveBatchStockByItem(item);
-                itemService.save(item);
-            }
+            Item item = itemService.createItem(itemDTO, cart);
+            reserveBatchStockByItem(item, cart);
             items.add(item);
         });
-       shoppingCart.setItems(items);
-        return shoppingCart;
+        cart.setItems(items);
+        orderService.createOrderByClosedCart(cart);
+        return cart;
+    }
+
+    private void reserveBatchStockByItem(Item item, ShoppingCart cart) {
+        if(cart.getStatus().equals(Status.FECHADO)) {
+            reserveBatchStockByItem(item);
+            itemService.save(item);
+        }
     }
 
     private void reserveBatchStockByItem(Item item) {
@@ -86,7 +93,7 @@ public class ShoppingCartService implements IShoppingCartService {
         return differenceData >= 21;
     }
 
-    private void decreaseQuantity( Item item){
+    private void decreaseQuantity(Item item) {
         Integer quantity = item.getQuantity();
         Integer stockQuantity = item.getBatchStock().getCurrentQuantity();
         if(stockQuantity >= quantity) {
@@ -100,15 +107,17 @@ public class ShoppingCartService implements IShoppingCartService {
 
     @Override
     public ShoppingCart updateShoppingCart(Long shoppingCartId, Status status) {
-        ShoppingCart shoppingCart = getShoppingCartById(shoppingCartId);
-        shoppingCart.setStatus(status);
-        if(shoppingCart.getStatus().equals(Status.FECHADO)) {
-            shoppingCart.getItems().forEach(item -> {
+        ShoppingCart cart = getShoppingCartById(shoppingCartId);
+        cart.setStatus(status);
+        if(cart.getStatus().equals(Status.FECHADO)) {
+            cart.getItems().forEach(item -> {
                 reserveBatchStockByItem(item);
                 itemService.save(item);
             });
         }
-        return repo.save(shoppingCart);
+        cart = repo.save(cart);
+        orderService.createOrderByClosedCart(cart);
+        return cart;
     }
 
     public ShoppingCartDTO convertToDTO(ShoppingCart shoppingCart) {
