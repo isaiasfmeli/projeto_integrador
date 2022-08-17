@@ -13,7 +13,7 @@
 
 ## 📌 Requisito 6 - Isaias Finger
 * User Story [`docs/UserStory-Requisito-06-Isaias-Finger.pdf`](docs/UserStory-Requisito-06-Isaias-Finger.pdf)
-
+* DER [`docs/Projeto-Integrador-DB.pdf`](docs/Projeto-Integrador-DB.pdf)
 ```http
 GET /api/v1/fresh-products/customer/${customerId}/orders
 ```
