@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"orderNumber\": 15,\n    \"orderDate\": \"2022-08-05\",\n    \"warehouseCode\": \"MLB-SC\",\n    \"sectionCode\": \"RF\",\n    \"representantId\": 1,\n    \"batchStock\": [\n        {\n            \"batchNumber\": 3,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 10,\n            \"currentQuantity\": 10,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-23T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 2,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 20,\n            \"currentQuantity\": 20,\n            \"manufacturingDate\": \"2022-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2022-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-24T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 1,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 20,\n            \"currentQuantity\": 20,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-25T17:46:51.190966\"\n        }\n    ]\n}",
+							"raw": "{\n    \"orderNumber\": 15,\n    \"orderDate\": \"2022-08-05\",\n    \"warehouseCode\": \"MLB-SC\",\n    \"sectionCode\": \"RF\",\n    \"representantId\": 1,\n    \"batchStock\": [\n        {\n            \"batchNumber\": 3,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 10,\n            \"currentQuantity\": 10,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-12-22T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 2,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 20,\n            \"currentQuantity\": 20,\n            \"manufacturingDate\": \"2022-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2022-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-24T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 1,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 20,\n            \"currentQuantity\": 20,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-25T17:46:51.190966\"\n        }\n    ]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -101,7 +101,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"orderNumber\": 55,\n    \"orderDate\": \"2022-08-05\",\n    \"warehouseCode\": \"BR\",\n    \"sectionCode\": \"FF\",\n    \"representantId\": 1,\n    \"batchStocks\": [\n        {\n            \"batchNumber\": 1,\n            \"productId\": \"String\",\n            \"currentTemperature\": 30,\n            \"minimumTemperature\": 0,\n            \"initialQuantity\": 1,\n            \"currentQuantity\": 1,\n            \"manufacturingDate\": \"2022-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2022-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-05T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 2,\n            \"productId\": \"String\",\n            \"currentTemperature\": 30,\n            \"minimumTemperature\": 1.0,\n            \"initialQuantity\": 1,\n            \"currentQuantity\": 1,\n            \"manufacturingDate\": \"2022-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2022-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-05T17:46:51.190966\"\n        }\n    ]\n}",
+							"raw": "{\n    \"orderNumber\": 15,\n    \"orderDate\": \"2022-08-05\",\n    \"warehouseCode\": \"MLB-SC\",\n    \"sectionCode\": \"RF\",\n    \"representantId\": 1,\n    \"batchStock\": [\n        {\n            \"batchNumber\": 3,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 10,\n            \"currentQuantity\": 10,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-12-22T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 2,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 20,\n            \"currentQuantity\": 20,\n            \"manufacturingDate\": \"2022-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2022-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-24T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 1,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 20,\n            \"currentQuantity\": 20,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-25T17:46:51.190966\"\n        }\n    ]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -176,98 +176,13 @@
 					]
 				},
 				{
-					"name": "[412] Registrar um lote já existente de produtos Copy",
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n    \"orderNumber\": 55,\n    \"orderDate\": \"2022-08-31\",\n    \"warehouseCode\": \"BR\",\n    \"sectionCode\": \"FF\",\n    \"representantId\": 1,\n    \"batchStocks\": [\n        {\n            \"batchNumber\": 1,\n            \"productId\": \"String\",\n            \"currentTemperature\": 30,\n            \"minimumTemperature\": 0,\n            \"initialQuantity\": 1,\n            \"currentQuantity\": 1,\n            \"manufacturingDate\": \"2022-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2022-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-05T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 2,\n            \"productId\": \"String\",\n            \"currentTemperature\": 30,\n            \"minimumTemperature\": 1.0,\n            \"initialQuantity\": 1,\n            \"currentQuantity\": 1,\n            \"manufacturingDate\": \"2022-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2022-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-05T17:46:51.190966\"\n        }\n    ]\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "{{base_Url}}/api/v1/fresh-products/inboundorder",
-							"host": [
-								"{{base_Url}}"
-							],
-							"path": [
-								"api",
-								"v1",
-								"fresh-products",
-								"inboundorder"
-							]
-						}
-					},
-					"response": [
-						{
-							"name": "[412] Registrar um lote já existente de produtos",
-							"originalRequest": {
-								"method": "POST",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\n    \"orderNumber\": 55,\n    \"orderDate\": \"2022-08-05\",\n    \"warehouseCode\": \"BR\",\n    \"sectionCode\": \"FF\",\n    \"representantId\": 1,\n    \"batchStocks\": [\n        {\n            \"batchNumber\": 1,\n            \"productId\": \"String\",\n            \"currentTemperature\": 30,\n            \"minimumTemperature\": 0,\n            \"initialQuantity\": 1,\n            \"currentQuantity\": 1,\n            \"manufacturingDate\": \"2022-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2022-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-05T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 2,\n            \"productId\": \"String\",\n            \"currentTemperature\": 30,\n            \"minimumTemperature\": 1.0,\n            \"initialQuantity\": 1,\n            \"currentQuantity\": 1,\n            \"manufacturingDate\": \"2022-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2022-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-05T17:46:51.190966\"\n        }\n    ]\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{base_Url}}/api/v1/fresh-products/inboundorder",
-									"host": [
-										"{{base_Url}}"
-									],
-									"path": [
-										"api",
-										"v1",
-										"fresh-products",
-										"inboundorder"
-									]
-								}
-							},
-							"status": "Precondition Failed",
-							"code": 412,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "application/json"
-								},
-								{
-									"key": "Transfer-Encoding",
-									"value": "chunked"
-								},
-								{
-									"key": "Date",
-									"value": "Fri, 12 Aug 2022 22:41:05 GMT"
-								},
-								{
-									"key": "Keep-Alive",
-									"value": "timeout=60"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
-								}
-							],
-							"cookie": [],
-							"body": "{\n    \"title\": \"Precondition Failed\",\n    \"status\": 412,\n    \"message\": \"orderNumber already exists\",\n    \"timestamp\": \"2022-08-12T19:41:05.905725\"\n}"
-						}
-					]
-				},
-				{
 					"name": "[201] Atualizar lote existente",
 					"request": {
 						"method": "PUT",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"orderNumber\": 55,\n    \"orderDate\": \"2022-08-05\",\n    \"warehouseCode\": \"MLB-SC\",\n    \"sectionCode\": \"FS\",\n    \"representantId\": 1,\n    \"batchStocks\": [\n        {\n            \"batchNumber\": 3,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 1,\n            \"currentQuantity\": 3,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2021-08-05T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 2,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 2,\n            \"currentQuantity\": 2,\n            \"manufacturingDate\": \"2022-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2022-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-05T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 1,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 3,\n            \"currentQuantity\": 3,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2023-08-05T17:46:51.190966\"\n        }\n    ]\n}",
+							"raw": "{\n    \"orderNumber\": 15,\n    \"orderDate\": \"2022-08-05\",\n    \"warehouseCode\": \"MLB-SC\",\n    \"sectionCode\": \"RF\",\n    \"representantId\": 1,\n    \"batchStock\": [\n        {\n            \"batchNumber\": 3,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 10,\n            \"currentQuantity\": 10,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-12-22T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 2,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 20,\n            \"currentQuantity\": 20,\n            \"manufacturingDate\": \"2022-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2022-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-24T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 1,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 20,\n            \"currentQuantity\": 20,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-25T17:46:51.190966\"\n        }\n    ]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -290,13 +205,13 @@
 					"response": []
 				},
 				{
-					"name": "[400] Atualizar lote existente",
+					"name": "[400] Atualizar lote payload inválido",
 					"request": {
 						"method": "PUT",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"orderNumber\": 55,\n    \"orderDate\": \"2022-08-05\",\n    \"warehouseCode\": \"MLB-SC\",\n    \"sectionCode\": \"RF\",\n    \"representantId\": 1,\n    \"batchStocks\": [\n        {\n            \"batchNumber\": 3,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 1,\n            \"currentQuantity\": 3,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2021-08-05T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 2,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 2,\n            \"currentQuantity\": 2,\n            \"manufacturingDate\": \"2022-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2022-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-05T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 1,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 3,\n            \"currentQuantity\": 3,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2023-08-05T17:46:51.190966\"\n        }\n    ]\n}",
+							"raw": "{\n    \"orderNumber\": 15,\n    \"orderDate\": \"2022-08-05\",\n    \"warehouseCode\": \"MLB-SC\",\n    \"sectionCode\": \"RF\",\n    \"representantId\": 1,\n    \"batchStockInvalido\": [\n        {\n            \"batchNumber\": 3,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 10,\n            \"currentQuantity\": 10,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-12-22T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 2,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 20,\n            \"currentQuantity\": 20,\n            \"manufacturingDate\": \"2022-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2022-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-24T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 1,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 20,\n            \"currentQuantity\": 20,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-25T17:46:51.190966\"\n        }\n    ]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -371,13 +286,13 @@
 					]
 				},
 				{
-					"name": "[404] Atualizar lote existente",
+					"name": "[404] Atualizar um lote não existente",
 					"request": {
 						"method": "PUT",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"orderNumber\": 15,\n    \"orderDate\": \"2022-08-05\",\n    \"warehouseCode\": \"MLB-SC\",\n    \"sectionCode\": \"FF\",\n    \"representantId\": 1,\n    \"batchStock\": [\n        {\n            \"batchNumber\": 3,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 1,\n            \"currentQuantity\": 1,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-23T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 2,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 2,\n            \"currentQuantity\": 2,\n            \"manufacturingDate\": \"2022-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2022-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-24T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 1,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 3,\n            \"currentQuantity\": 3,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-25T17:46:51.190966\"\n        }\n    ]\n}",
+							"raw": "{\n    \"orderNumber\": 99,\n    \"orderDate\": \"2022-08-05\",\n    \"warehouseCode\": \"MLB-SC\",\n    \"sectionCode\": \"RF\",\n    \"representantId\": 1,\n    \"batchStock\": [\n        {\n            \"batchNumber\": 3,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 10,\n            \"currentQuantity\": 10,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-12-22T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 2,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 20,\n            \"currentQuantity\": 20,\n            \"manufacturingDate\": \"2022-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2022-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-24T17:46:51.190966\"\n        },\n        {\n            \"batchNumber\": 1,\n            \"productId\": \"leite\",\n            \"currentTemperature\": 4,\n            \"minimumTemperature\": 4,\n            \"initialQuantity\": 20,\n            \"currentQuantity\": 20,\n            \"manufacturingDate\": \"2020-08-05T17:46:51.190966\",\n            \"manufacturingTime\": \"2020-08-05T17:46:51.190966\",\n            \"dueDate\": \"2022-08-25T17:46:51.190966\"\n        }\n    ]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -528,26 +443,6 @@
 					]
 				},
 				{
-					"name": "[404] Listar todos os produtos",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "{{base_Url}}/api/v1/fresh-products/list",
-							"host": [
-								"{{base_Url}}"
-							],
-							"path": [
-								"api",
-								"v1",
-								"fresh-products",
-								"list"
-							]
-						}
-					},
-					"response": []
-				},
-				{
 					"name": "[200] Listar produtos por categoria",
 					"request": {
 						"method": "GET",
@@ -566,7 +461,8 @@
 							"query": [
 								{
 									"key": "category",
-									"value": "RF"
+									"value": "RF",
+									"description": "Categoria do produto pode assumir os seguintes valores: FS (fresco), RF (refrigerado), FF (congelado)."
 								}
 							]
 						}
@@ -627,12 +523,12 @@
 					]
 				},
 				{
-					"name": "[404] Listar produtos por categoria",
+					"name": "[404] Listar produtos por categoria inválida",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_Url}}/api/v1/fresh-products/list?productCategory=RR",
+							"raw": "{{base_Url}}/api/v1/fresh-products/list?category=INVALIDA",
 							"host": [
 								"{{base_Url}}"
 							],
@@ -644,8 +540,8 @@
 							],
 							"query": [
 								{
-									"key": "productCategory",
-									"value": "RR",
+									"key": "category",
+									"value": "INVALIDA",
 									"description": "Categoria do produto pode assumir os seguintes valores: FS (fresco), RF (refrigerado), FF (congelado)."
 								}
 							]
@@ -706,7 +602,7 @@
 					"response": []
 				},
 				{
-					"name": "[404] Exibir produtos no pedido",
+					"name": "[404] Exibir produtos pedido inválido",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -969,7 +865,7 @@
 					]
 				},
 				{
-					"name": "[404] Listar produtos por lote",
+					"name": "[404] Listar produto não existente",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -1341,7 +1237,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_Url}}/api/v1/fresh-products/warehouse/?idProduct=leite",
+							"raw": "{{base_Url}}/api/v1/fresh-products/warehouse/leite",
 							"host": [
 								"{{base_Url}}"
 							],
@@ -1350,14 +1246,7 @@
 								"v1",
 								"fresh-products",
 								"warehouse",
-								""
-							],
-							"query": [
-								{
-									"key": "idProduct",
-									"value": "leite",
-									"description": "Identificador do produto."
-								}
+								"leite"
 							]
 						}
 					},
@@ -1417,7 +1306,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_Url}}/api/v1/fresh-products/warehouse/idProduct?idProduct=chocolate",
+							"raw": "{{base_Url}}/api/v1/fresh-products/warehouse/chocolate",
 							"host": [
 								"{{base_Url}}"
 							],
@@ -1426,14 +1315,7 @@
 								"v1",
 								"fresh-products",
 								"warehouse",
-								"idProduct"
-							],
-							"query": [
-								{
-									"key": "idProduct",
-									"value": "chocolate",
-									"description": "Identificador do produto."
-								}
+								"chocolate"
 							]
 						}
 					},
@@ -1586,7 +1468,7 @@
 					]
 				},
 				{
-					"name": "[404] Listar todos os lotes armazenados do setor do armazém ordenados por data de vencimento",
+					"name": "[404] Listar todos os lotes armazenados do setor inválido",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -1770,7 +1652,7 @@
 					]
 				},
 				{
-					"name": "[404] Listar todos os lotes no prazo de validade e pertencentes a uma categoria de produto",
+					"name": "[404] Listar todos os lotes no prazo de validade e categoria inválida",
 					"request": {
 						"method": "GET",
 						"header": [],
