@@ -3,6 +3,7 @@
 <br>
 
 ## ✅ Testes
+* Requisito 6 [`src/test/.../service/OrderServiceTest.java`](src/test/java/br/com/dh/meli/projeto_integrador/service/OrderServiceTest.java)
 * Unitários [`src/test/java/br/com/dh/meli/projeto_integrador`](src/test/java/br/com/dh/meli/projeto_integrador)
 
 ## 🚩 Postman collection
@@ -12,6 +13,34 @@
 
 ## 📌 Requisito 6 - Isaias Finger
 * User Story [`docs/UserStory-Requisito-06-Isaias-Finger.pdf`](docs/UserStory-Requisito-06-Isaias-Finger.pdf)
+
+```http
+GET /api/v1/fresh-products/customer/${customerId}/orders
+```
+| Parameter    | Type   | Description              |
+|:-------------|:-------|:-------------------------|
+| `customerId` | `long` | **Required**. CustomerId |
+#### Response
+```json
+[
+  {
+    "id": 1,
+    "orderDate": "2022-08-16T20:12:45.945958",
+    "status": "FECHADO",
+    "customerId": 1,
+    "totalPrice": 200.0,
+    "items": [
+      {
+        "advertisementId": 1,
+        "batchNumber": 3,
+        "quantity": 1,
+        "unitPrice": 200.0,
+        "price": 200.0
+      }
+    ]
+  }
+]
+```
 
 ## 📝 Proposta
 Criar uma API REST que faz o gerenciamento de estoque e venda de produtos frescos.
